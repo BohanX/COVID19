@@ -1,8 +1,11 @@
 # COVID19
  Analysis on COVID-19 pandemic
+updated on March 29, 2020  
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries   
 ## Goal: Make an educated guess on when the spread of the novel coronavirus will stabilize (i.e. when the things will get better) in different countries
+
+For detailed numbers chec: Predictions_on_growth_of_confirmed_cases.ipynb
   
 ## Method:   
 1. Use the data from China as an example to create logistic models for different countries   
@@ -20,8 +23,10 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### 3. Any inaccuracies in the data source can affect predictions  
 ### 4. I intend to update every week and conclusion may be different in each update (due to new models being generated from latest data)  
 
-## Summary:   
-### 1. The logistic model was applied to 26 countries  
-### 2. Mean turning point for these countries is on 2020-03-16  
-### 3. Mean CurveTop for these countries is on 2020-04-08  
-### 4. The numbers of confirmed cases in Germany and Italy may exceed those in China, but there are uncertainties because the numbers in China is expected to rise again due to people going back to China from other countries.  
+## Summary: 
+### 1. The logistic model was applied to 59 countries
+### 2. Mean turning point for these countries is on 2020-03-24 (This is an understimate because only countries close to turning points can be modeled)
+### 3. Mean CurveTop for these countries is on 2020-04-21
+### 4. The numbers of confirmed cases in US, Spain,	Italy, United Kingdom, Germany, France may exceed those in China
+### 5. Comparing to last week, more countries can be modeled by logistic model, indicating that an increase in number of confirmed cases globally and more countries are getting closer to turning points
+### 6. By looking at CruveTop and comparing from last week, Gemany reduced future confirmed cases by half. On the other hand, Italy, Spain, and France need to enforce containment measures because the total confirmed cases in the future are predicted to be increasing.
