@@ -1,5 +1,4 @@
-# COVID19
- Analysis on COVID-19 pandemic
+# COVID19 Analysis on COVID-19 pandemic
 updated on April 6, 2020  
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries   
@@ -32,9 +31,9 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### 6. Looking at top 5 countries, France will grow fast while US, Spain, Germany will start to decrease in April
 ### 7. By looking at CruveTop and comparing from last week, situation in most countries will stablize in the begining of May
 
+![](Canada_prediction.png)
 
 # Predictions on growth of reported death by Novel Coronavirus (2019-nCoV)
-                      By Bohan updated on April 6, 2020  
 ## Goal: Compare deaths within Canada with other countries.
 
 ## Method: 
@@ -54,5 +53,5 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### 1. Comparing with most affected European countries (e.g. France, Italy, Germany, UK, Spain), Canada and US have low death rates.
 ### 2.Within Canada, Alberta and Ontario have relatively higher death rates than BC and Quebec
 ### 3. In above regions, only Spain and Italy show decrease in death rate. Therefore, death rate is unlikely to drop yet in Canada
-  
-  [](Death_cases.png)
+
+![](Death_cases.png)
