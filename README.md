@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
 # COVID19
  Analysis on COVID-19 pandemic
 updated on April 12, 2020  
 =======
 # COVID19 Analysis on COVID-19 pandemic
-updated on April 6, 2020  
->>>>>>> f86bcafcb253ef628bb39510c12a078b2c8dd052
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
                       By Bohan updated on April 12, 2020  
@@ -40,10 +38,7 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ![](Canada_prediction.png)
 
 # Predictions on growth of reported death by Novel Coronavirus (2019-nCoV)
-<<<<<<< HEAD
-                      By Bohan updated on April 12, 2020  
-=======
->>>>>>> f86bcafcb253ef628bb39510c12a078b2c8dd052
+
 ## Goal: Compare deaths within Canada with other countries.
 
 ## Method: 
