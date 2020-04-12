@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # COVID19
  Analysis on COVID-19 pandemic
 updated on April 12, 2020  
+=======
+# COVID19 Analysis on COVID-19 pandemic
+updated on April 6, 2020  
+>>>>>>> f86bcafcb253ef628bb39510c12a078b2c8dd052
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
                       By Bohan updated on April 12, 2020  
@@ -32,9 +37,13 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### 6. Looking at top 5 countries, model predicts a decrease in last week but the number increased in reality. It could be due to increased number of tests done but it also proves that the model tend to underestimate the situation.
 ### 7. The earliset time for situation in most countries to be stablized is in the begining of May 
 
+![](Canada_prediction.png)
 
 # Predictions on growth of reported death by Novel Coronavirus (2019-nCoV)
+<<<<<<< HEAD
                       By Bohan updated on April 12, 2020  
+=======
+>>>>>>> f86bcafcb253ef628bb39510c12a078b2c8dd052
 ## Goal: Compare deaths within Canada with other countries.
 
 ## Method: 
@@ -54,5 +63,5 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### 1. Comparing with most affected European countries (e.g. France, Italy, Germany, UK, Spain), Canada and US have low death rates.
 ### 2.Within Canada, the death rate is comparable between provinces.
 ### 3. In above regions, only Spain and Italy show decrease in death rate. Therefore, death rate is unlikely to drop yet in Canada
-  
-  [](Death_cases.png)
+
+![](Death_cases.png)
