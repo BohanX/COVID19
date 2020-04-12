@@ -1,12 +1,11 @@
 
 # COVID19
- Analysis on COVID-19 pandemic
-updated on April 12, 2020  
-=======
+
 # COVID19 Analysis on COVID-19 pandemic
+updated on April 12, 2020  
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
-                      By Bohan updated on April 12, 2020  
+
 ## Goal: Make an educated guess on when the spread of the novel coronavirus will stabilize (i.e. when the things will get better) in different countries
 
 ## Method: 
