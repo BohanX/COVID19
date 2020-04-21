@@ -1,14 +1,11 @@
-<<<<<<< HEAD
+
 # COVID19
  Analysis on COVID-19 pandemic
-updated on April 12, 2020  
-=======
-# COVID19 Analysis on COVID-19 pandemic
-updated on April 6, 2020  
->>>>>>> f86bcafcb253ef628bb39510c12a078b2c8dd052
+updated on April 21, 2020  
+
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
-                      By Bohan updated on April 12, 2020  
+
 ## Goal: Make an educated guess on when the spread of the novel coronavirus will stabilize (i.e. when the things will get better) in different countries
 
 ## Method: 
@@ -29,21 +26,22 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 
 
 ## Summary: 
-### 1. The logistic model was applied to 85 countries
-### 2. Mean turning point for these countries is on 2020-03-29 (This is an understimate because only countries close to turning points can be modeled)
-### 3. Mean CurveTop for these countries is on 2020-04-29
-### 4. The numbers of confirmed cases in  US, France, United Kingdom may exceed those in China by May, 2020
-### 5. Comparing to last week, more countries can be modeled by logistic model, indicating that an increase in number of confirmed cases globally 
-### 6. Looking at top 5 countries, model predicts a decrease in last week but the number increased in reality. It could be due to increased number of tests done but it also proves that the model tend to underestimate the situation.
-### 7. The earliset time for situation in most countries to be stablized is in the begining of May 
+### 0. Update on the parameter boundary  for model
+### 1. The logistic model was applied to 102 countries
+### 2. Mean turning point for these countries is on 2020-04-07 
+(This is an understimate because only countries close to turning points can be modeled)
+### 3. Mean CurveTop for these countries is on 2020-05-24
+(This is also an understimate. If you check the graphs in the bottom, you will find that the numbers in some countires did not decrease as models predict )
+### 4. The numbers of confirmed cases in some countires (such as  US, Italy, Spain, Canada) did not drop as predicted 
+### 5. Comparing to last week, more countries can be modeled by logistic model. Russia, Turkey, and Iran are prediced to exceed 8 milion cases 
+### 6. From example graphs, there is no indication that the rate of increasing will drop soon as model prediction. 
+It could be due to increased number of tests done but it also proves that the models tend to underestimate the situation.
+### 7. The earliset time for situation in most countries to be stablized is in the begining of June 
 
 ![](Canada_prediction.png)
 
 # Predictions on growth of reported death by Novel Coronavirus (2019-nCoV)
-<<<<<<< HEAD
-                      By Bohan updated on April 12, 2020  
-=======
->>>>>>> f86bcafcb253ef628bb39510c12a078b2c8dd052
+
 ## Goal: Compare deaths within Canada with other countries.
 
 ## Method: 
@@ -60,8 +58,8 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### This notebook can be used for other provinces or countries by changing names in the code.
 
 ## Summary: 
-### 1. Comparing with most affected European countries (e.g. France, Italy, Germany, UK, Spain), Canada and US have low death rates.
-### 2.Within Canada, the death rate is comparable between provinces.
-### 3. In above regions, only Spain and Italy show decrease in death rate. Therefore, death rate is unlikely to drop yet in Canada
+### 1. The number of death in US exceeded most affected European countries (e.g. France, Italy, Germany, UK, Spain) while the number in Canada remained relatively lower. But unlike other countires, Canada did not show an obvious decrease in the rate.
+### 2.Within Canada, the death rate is slowing down only in Alberta and BC.
+### 3. In summary, the death rate is unlikely to drop yet in Canada, specifically in Ontario and Quebec.
 
 ![](Death_cases.png)
