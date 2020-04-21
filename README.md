@@ -1,8 +1,14 @@
 
 # COVID19
+<<<<<<< HEAD
  Analysis on COVID-19 pandemic
 updated on April 21, 2020  
 
+=======
+
+# COVID19 Analysis on COVID-19 pandemic
+updated on April 12, 2020  
+>>>>>>> ba10745dc52954dc43e7bade7ba9fdd8cf250d46
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
 
