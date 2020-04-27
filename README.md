@@ -2,7 +2,7 @@
 # COVID19
 
 Analysis on COVID-19 pandemic
-updated on April 21, 2020  
+updated on April 27, 2020  
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
 
@@ -27,13 +27,13 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 
 ## Summary: 
 ### 0. Update on the parameter boundary  for model
-### 1. The logistic model was applied to 102 countries
-### 2. Mean turning point for these countries is on 2020-04-07 
+### 1. The logistic model was applied to 104 countries
+### 2. Mean turning point for these countries is on 2020-04-11
 (This is an understimate because only countries close to turning points can be modeled)
-### 3. Mean CurveTop for these countries is on 2020-05-24
+### 3. Mean CurveTop for these countries is on 2020-06-01
 (This is also an understimate. If you check the graphs in the bottom, you will find that the numbers in some countires did not decrease as models predict )
 ### 4. The numbers of confirmed cases in some countires (such as  US, Italy, Spain, Canada) did not drop as predicted 
-### 5. Comparing to last week, more countries can be modeled by logistic model. Russia, Turkey, and Iran are prediced to exceed 8 milion cases 
+### 5. Comparing to last week, more countries can be modeled by logistic model. Mexico is prediced to exceed 80,000 cases 
 ### 6. From example graphs, there is no indication that the rate of increasing will drop soon as model prediction. 
 It could be due to increased number of tests done but it also proves that the models tend to underestimate the situation.
 ### 7. The earliset time for situation in most countries to be stablized is in the begining of June 
@@ -58,8 +58,8 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### This notebook can be used for other provinces or countries by changing names in the code.
 
 ## Summary: 
-### 1. The number of death in US exceeded most affected European countries (e.g. France, Italy, Germany, UK, Spain) while the number in Canada remained relatively lower. But unlike other countires, Canada did not show an obvious decrease in the rate.
-### 2.Within Canada, the death rate is slowing down only in Alberta and BC.
-### 3. In summary, the death rate is unlikely to drop yet in Canada, specifically in Ontario and Quebec.
+### 1. The number of death in US started to show decreasing trend.
+### 2.Within Canada, the death rate is slowing down in all regions and daily increase is below 15%.
+### 3. In summary, the death rate is likely to continue to drop in Canada and US.
 
 ![](Death_cases.png)
