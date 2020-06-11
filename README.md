@@ -26,17 +26,14 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 
 
 ## Summary: 
-### 0. Update on the parameter boundary  for model
-### 1. The logistic model was applied to 104 countries
-### 2. Mean turning point for these countries is on 2020-04-11
+### 0. Update on the parameter boundary  for model, End phase and Growth phase analysis
+### 1. The logistic model was applied to 125 countries
+### 2. Mean turning point for these countries is on 2020-05-06
 (This is an understimate because only countries close to turning points can be modeled)
-### 3. Mean CurveTop for these countries is on 2020-06-01
+### 3. Mean CurveTop for these countries is on 2020-08-01
 (This is also an understimate. If you check the graphs in the bottom, you will find that the numbers in some countires did not decrease as models predict )
-### 4. The numbers of confirmed cases in some countires (such as  US, Italy, Spain, Canada) did not drop as predicted 
-### 5. Comparing to last week, more countries can be modeled by logistic model. Mexico is prediced to exceed 80,000 cases 
-### 6. From example graphs, there is no indication that the rate of increasing will drop soon as model prediction. 
-It could be due to increased number of tests done but it also proves that the models tend to underestimate the situation.
-### 7. The earliset time for situation in most countries to be stablized is in the begining of June 
+### 4. The situation is stablized in most countries. However, some countires in Europe and Africa continue to grow in numbers
+
 
 ![](Canada_prediction.png)
 
@@ -57,9 +54,5 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ### This is NOT official projection.
 ### This notebook can be used for other provinces or countries by changing names in the code.
 
-## Summary: 
-### 1. The number of death in US started to show decreasing trend.
-### 2.Within Canada, the death rate is slowing down in all regions and daily increase is below 15%.
-### 3. In summary, the death rate is likely to continue to drop in Canada and US.
 
 ![](Death_cases.png)
