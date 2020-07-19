@@ -2,7 +2,7 @@
 # COVID19
 
 Analysis on COVID-19 pandemic
-updated on June 29, 2020  
+updated on July 19, 2020  
 
 # Predictions on growth of confirmed Novel Coronavirus (2019-nCoV) cases in countries 
 
@@ -28,11 +28,11 @@ https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_c
 ## Summary: 
 ### 0. Update on the parameter boundary  for model, End phase and Growth phase analysis
 ### 1. The logistic model was applied to 130 countries
-### 2. Mean turning point for these countries is on 2020-05-17
+### 2. Mean turning point for these countries is on 2020-06-01
 (This is an understimate because only countries close to turning points can be modeled)
-### 3. Mean CurveTop for these countries is on 2020-08-26
+### 3. Mean CurveTop for these countries is on 2020-09-30
 (This is also an understimate. If you check the graphs in the bottom, you will find that the numbers in some countires did not decrease as models predict )
-### 4. The situation is stablized in most countries. However, some countires in Europe and Africa continue to grow in numbers. Oceania started to show growth in numbers.
+### 4. The numbers in various countries continue to grow steadily while some countires in Europe and Africa continue to grow in numbers.
 
 
 ![](Canada_prediction.png)
